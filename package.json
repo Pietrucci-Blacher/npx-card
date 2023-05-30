@@ -6,14 +6,9 @@
   "bin": {
     "bitandbang": "./bin/card.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
-  },
-  "homepage": "https://bnb.im",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "node build.js",
+    "build": "node build.mjs",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard"
   },
@@ -32,7 +27,7 @@
   "devDependencies": {
     "boxen": "^7.1.0",
     "chalk": "^5.2.0",
-    "standard": "^17.0.0"
+    "standard": "^12.0.1"
   },
   "bugs": {
     "url": "https://github.com/bnb/bitandbang/issues"
