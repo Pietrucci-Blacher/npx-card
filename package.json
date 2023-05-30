@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "A personal card for Maxime Pietrucci-Blacher (@sunshio)",
   "main": "/bin/card.js",
+  "author": "Maxime Pietrucci-Blacher",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "sunshio": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pietrucci-Blacher/npx-card"
   },
   "repository": {
     "type": "git",
